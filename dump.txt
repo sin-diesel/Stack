@@ -1,0 +1,14 @@
+Stack_t : 'stk'(ok)
+size = 0
+max_size = 3
+min_size = 3
+Hash = 0
+canary1: 0xded0bad
+returned value 20
+data [0] = [0x7ffee0b08990] {
+*[0] : 3802
+*[1] : 0
+*[2] : 0
+}
+canary2: 0x0
+errno: 20STACK_OVERFLOW
